@@ -1,0 +1,244 @@
+.logo{
+    font-size: 50px;
+}
+/* -------navbar------------------- */
+header ul{
+    /* float: none; */
+    background-color: rgba(0, 0, 0, 0.99);
+    position: fixed;
+    top:130px;
+    /* left: 0px; */
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100vh;
+    transition: .5s;
+    /* display: none */
+ 
+
+}
+
+header ul li{
+    display: block;
+    margin-right: 0;
+    margin-top: 40px;
+}
+header ul li a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 0px;
+    /* border: 2px solid white; */
+    font-size: 18px;
+    transition: .3s;
+}
+header .menu i{
+    display: block;
+    background-color: transparent;
+
+}
+/* -------------home----------------- */
+.home{
+    height: auto;
+}
+.home .home-text{
+    /* background-color: white; */
+    height: auto;
+}
+
+.home .home-text h3{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.home-text p{
+    font-size: 20px;
+}
+/* ----------------------about----------------------- */
+.about{
+    height: auto;
+}
+.about-container{
+    /* border: 2px solid rgb(219, 12, 12); */
+    height: auto;
+    padding: 50px 0px 0px 0px;
+}
+.about-image{
+    width: 100%;
+    /* margin: auto; */
+    float: none;
+}
+.about-image img{
+    margin: auto;
+    display: block;
+}
+
+.about-text{
+    /* border: 2px solid rgb(219, 12, 12); */
+    padding: 20px;
+    float: none;
+    width: 80%;
+    margin: auto;
+}
+.about-text p{
+    padding: 0px 30px;
+}
+/* ---------------------services---------------------  */
+
+.services{
+    height: auto;
+    padding-bottom:20px ;
+}
+.services-container{
+    height: auto;
+    margin-top: 40px;
+    padding: 0px 0px 0px 0px;
+}
+.services .service-1{
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+    float: none;
+    padding-top: 30px;
+}
+
+.services .service-2{
+    
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+    float: none;
+    padding-top: 30px;
+}
+
+.services .service-3{
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+    float: none;
+    padding-top: 30px;
+}
+.services i{
+    font-size: 100px;
+}
+
+.services .service-heading{ 
+    font-size: 35px;
+}
+
+.services .service-para{
+    font-size: 18px;
+}
+/* -------------------------------portfolio-----------------  */
+.portfolio{
+    height: auto;
+    padding-bottom: 20px;
+}
+.portfolio-container{
+    height: auto;
+    padding: 0px;
+    /* margin-top: 40px; */
+    /* padding: 0px 0px 0px 0px; */
+}
+.portfolio .portfolio-1{
+    max-width:500px ;
+    padding-bottom: 10px;
+    float: none;
+    height: auto;
+    /* padding: 0px; */
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-top: 40px; */
+}
+
+.portfolio .portfolio-2{
+    max-width: 500px;
+    float: none;
+    height: auto;
+    padding-bottom: 10px;
+
+    margin: auto;
+}
+.portfolio-container2{
+    margin-top: 50px;
+    height: auto;
+    /* border: 2px solid rgb(212, 21, 21); */
+    padding: 0px;
+
+}
+.portfolio .portfolio-3{
+    max-width: 500px;
+    padding-bottom: 10px;
+    
+    float: none;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.portfolio .portfolio-4{
+    max-width: 500px;
+    float: none;
+    padding-bottom: 10px;
+
+    height: auto;
+    margin: auto;
+}
+.portfolio h2{
+    font-size: 32px;
+}
+.portfolio p{
+    font-size: 20px;
+}
+/* ---------------------contact---------------------  */
+.contact{
+    /* border: 2px solid white; */
+    height: auto;
+}
+.contact .contact-text{
+    float: none;
+    width: 100%;
+    min-height: auto;
+}
+.contact h1{
+    margin-left: 15%;
+}
+.contact-text .projects{
+    margin-left: 150px;
+}
+.contact .contact-text p{
+    margin-left: 155px;
+    font-size: 22px;
+}
+.contact-text .socials{
+    position: static;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.contact-form{
+    /* border: 2px solid white; */
+    padding-top: 100px;
+    float: none;
+    min-height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.contact-form form input,form textarea{
+    width: 50%;
+}
+.contact-form form input[type="submit"]{
+    margin: auto;
+    width: 200px;
+}
+
+/* ---------footer------------------- */
+.footer{
+    height: auto;
+}
+.footer p{
+    font-size: 17px;
+}

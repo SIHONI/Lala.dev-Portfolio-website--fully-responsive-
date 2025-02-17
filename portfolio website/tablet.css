@@ -1,0 +1,279 @@
+/* body{
+    background-color: aqua;
+} */
+.logo{
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+header ul{
+    /* float: none; */
+    background-color: rgba(0, 0, 0, 0.99);
+    position: fixed;
+    top:100px;
+    /* left: 0px; */
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100vh;
+    transition: .5s;
+    /* display: none */
+ 
+
+}
+
+header ul li{
+    display: block;
+    margin-right: 0;
+    margin-top: 40px;
+}
+header ul li a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 0px;
+    /* border: 2px solid white; */
+    font-size: 18px;
+    transition: .3s;
+}
+header .menu i{
+    display: block;
+    background-color: transparent;
+
+}
+/* ------------------home-------------------- */
+.home .home-text{
+    margin-left: 70px;
+}
+
+.home-text h3{
+    margin-bottom: 10px;
+}
+.home-text p{
+    margin-bottom: 40px;
+}
+.home .button a{
+    font-size: 16px;
+
+}
+/* ---------------------about--------------------- */
+.about{
+    padding:50px 0px 0px 0px;
+    height: auto;
+
+}
+.about-container{
+    height: auto;
+    padding: 50px 0px 0px 0px;
+}
+.about-image{
+    width: 100%;
+    float: none;
+    height: auto;
+}
+.about-image img{
+    margin: auto;
+    width: 200px;
+    display: block;
+
+}
+.about-text{
+    float: none;
+    /* border: 2px solid white; */
+    /* height: auto; */
+    margin-left: 80px;
+    width: 80%;
+    padding: 20px 40px 20px 0px;
+}
+.about-text h2{
+    margin-left: 0%;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+.about-text h3{
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.about-text p{
+    line-height:27px ;
+    margin-left: 0;
+    font-size: 14px;
+    text-align: justify;
+    /* margin-bottom: 60px; */
+}
+.about-btn{
+    padding:10px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0;
+}
+/* -------------------------service---------------------- */
+.services{
+    height: auto;
+}
+.services h1{
+    font-size: 35px;
+}
+.services-container{
+    padding-top: 0px;
+    height: auto;
+    /* border: 2px solid rgb(212, 21, 21); */
+    padding-left:0px ;
+    padding-bottom:20px ;
+}
+.services .service-1{
+    float: none;
+    margin: auto;
+
+
+
+    /* margin-bottom: 20px; */
+}
+
+.services .service-2{
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.services .service-3{
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.services i{
+    font-size: 60px;
+    /* border: 2px solid white; */
+    padding-top: 50px ;
+
+}
+.services .service-heading{ 
+    font-size: 20px;
+
+    color: white;
+    text-align: center;
+}
+/* ---------------------------------portfolio---------------------- */
+.portfolio{
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+.portfolio h1{
+    font-size: 35px;
+}
+.portfolio-container{
+    margin-top: 80px;
+    padding: 0px;
+    height: auto;
+
+}
+.portfolio .portfolio-1{
+    max-width: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.portfolio .portfolio-2{
+    max-width: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.portfolio  img{
+    width: 100%;
+    height: auto;
+    transition:.5s;
+}
+.portfolio p{
+    font-size: 18px;
+}
+.portfolio-container2{
+    height: auto;
+    /* border: 2px solid rgb(212, 21, 21); */
+    padding: 0px ;
+
+}
+.portfolio .portfolio-3{
+    max-width: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.portfolio .portfolio-4{
+    max-width: 400px;
+    float: none;
+    margin: auto;
+    margin-bottom: 90px;
+}
+/* -----------------------contact------------------------- */
+
+.contact{
+    height: auto;
+    /* padding-bottom: 20px; */
+
+}
+.contact .contact-text{
+    /* height: auto; */
+
+    /* border: 2px solid white; */
+    width: 100%;
+    float: none;
+    min-height: auto;
+}
+.contact h1{
+    font-size: 50px;
+    margin-left: 15%;
+    margin-top: 60px;
+}
+.contact-text .projects{
+    font-size: 25px;
+
+    margin-left: 120px;
+}
+.contact .contact-text p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.contact-text .socials{
+    /* border: 2px solid white; */
+    position:static;
+    margin-top: 20px;
+    margin-left: 20%;
+     
+}
+.socials h4{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.contact-form{
+    float: none;
+    /* border: 2px solid white; */
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px;
+    min-height: auto;
+}
+.contact-form form input ,form textarea{
+    width: 50%;
+}
+.contact-form form input[type="submit"]{
+    margin:auto; 
+}
+/* -------------------footer---------------- */
+.footer{
+    height: auto;
+}
+.footer p{
+    font-size: 15px;
+    margin-left: 10px;
+}
